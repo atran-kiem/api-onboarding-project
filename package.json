@@ -1,0 +1,31 @@
+{
+  "name": "api-onboarding-project",
+  "version": "1.0.0",
+  "description": "Simple api project to learn the FeatherJS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atran-kiem/api-onboarding-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/atran-kiem/api-onboarding-project/issues"
+  },
+  "homepage": "https://github.com/atran-kiem/api-onboarding-project#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@feathersjs/feathers": "^5.0.37",
+    "@feathersjs/koa": "^5.0.37",
+    "@feathersjs/socketio": "^5.0.37"
+  }
+}
